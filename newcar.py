@@ -80,7 +80,7 @@ class Car:
             x = int(self.center[0] + math.cos(math.radians(360 - (self.angle + degree))) * length)
             y = int(self.center[1] + math.sin(math.radians(360 - (self.angle + degree))) * length)
 
-        # Calculate Distance To Border And Append To Radars List
+        # Calculate Distance To Border And Append To Radars List  
         dist = int(math.sqrt(math.pow(x - self.center[0], 2) + math.pow(y - self.center[1], 2)))
         self.radars.append([(x, y), dist])
     
