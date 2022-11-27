@@ -11,7 +11,7 @@ import pygame
 
 # Constants
 # WIDTH = 1600
-# HEIGHT = 880
+# HEIGHT = 880   
 
 WIDTH = 1920
 HEIGHT = 1080
