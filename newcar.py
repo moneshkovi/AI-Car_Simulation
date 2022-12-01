@@ -35,7 +35,7 @@ class Car:
         # self.position = [690, 740] # Starting Position
         self.position = [830, 920] # Starting Position
         self.angle = 0
-        self.speed = 0
+        self.speed = 0          
 
         self.speed_set = False # Flag For Default Speed Later on
 
