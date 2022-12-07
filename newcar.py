@@ -62,7 +62,7 @@ class Car:
 
     def check_collision(self, game_map):
         self.alive = True
-        for point in self.corners:
+        for point in self.corners:   
             # If Any Corner Touches Border Color -> Crash
             # Assumes Rectangle
             if game_map.get_at((int(point[0]), int(point[1]))) == BORDER_COLOR:
